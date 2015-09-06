@@ -1,15 +1,15 @@
 # Mobile-Devepment-Guide
 
-##### 门户 | Guide
+## 门户 | Guide
 
-##### 开发基准
+### 开发基准
 **简明，模式 | simple , pattern**
     
     简明：代码简单，清晰明白
     模式：松耦合，积木化
 
 
-##### 开发方案选择：
+### 开发方案选择：
 
     00. 项目代码以简单易懂为主，方便他人维护
           避免过分追求技术陷阱，造成学习成本以及维护成本变大
@@ -40,7 +40,7 @@
     12. 新技术试点一般以专题为佳，快速小巧
 
 
-##### 开发思路流程举例
+### 开发思路流程举例
 
     00. 梳理需求和制定实现方案
     01. 代码实现 code implement
@@ -48,14 +48,14 @@
     03. 代码测试 code test
 
 
-##### 库：
+### 库：
 
     zepto 使用中
     地址： http://zeptojs.com/
     jquery 2.0+
 
 
-##### UI组件：
+### UI组件：
 
     推荐门户自己的MU组件，自己维护，自己测试，自己更新
     地址：https://github.com/Roeis/MU
@@ -63,7 +63,7 @@
 
 
 
-##### 工具方法：
+### 工具方法：
 
     underscore
     地址：http://underscorejs.org/
@@ -72,7 +72,7 @@
 
 
 
-##### 事件：
+### 事件：
 
     mu.touch 触屏事件， 兼容PC端
     tap, longTap, swipeLeft, swipeRight, swipeUp, swipeDown
@@ -81,7 +81,7 @@
 
 
 
-##### 微信交互：
+### 微信交互：
 
     url : http://common.hjfile.cn/js/hj-weixin-2.0.js
     使用方法：http://st.hujiang.com/topic/162110742385/
@@ -92,7 +92,7 @@
     改变用户分享内容，比如贺卡，将信息添加至URL传递，客户端根据url的query做
 
 
-##### cookie：
+### cookie：
 ![Build Status Matrix](https://camo.githubusercontent.com/c070f264c7ffddee9fe85845d1180717059ebfa3/68747470733a2f2f73617563656c6162732e636f6d2f62726f777365722d6d61747269782f6a732d636f6f6b69652e737667)
 
     cookie操作，统一引用js.cookie.js
@@ -103,18 +103,18 @@
     Cookies.remove('name');
 
 
-##### localstorage：
+### localstorage：
 
     使用前判断是否隐身状态
     场景：ios safari等
 
 
 
-##### 横竖屏判断：
+### 横竖屏判断：
 
 
 
-##### 模板：
+### 模板：
 
     dot 使用中
     地址：http://olado.github.io/doT/
@@ -123,7 +123,7 @@
 
 
 
-##### 编写规范：
+### 编写规范：
 
     符合一般主流规范；
         tab推荐空格；
@@ -132,7 +132,7 @@
         等等；
 
 
-##### 工作流：
+### 工作流：
 
     处理自动压缩，打包，合并，雪碧图等
     Grunt  使用中
@@ -140,7 +140,7 @@
 
 
 
-##### 业务插件举例：
+### 业务插件举例：
 
     //单个业务插件举例
     var core = {
